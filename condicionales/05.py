@@ -15,7 +15,7 @@ if precio > 0 :
     if 1 <= unidades <= 10 : descuento = 0.05
     elif 11 <= unidades <= 20 : descuento = 0.08
     elif unidades >= 31 : descuento = 0.13
-    descuento *= compra # descuento = descuento
+    descuento *= compra # descuento = descuento 
 
     print( f"Precio    = {precio:.2f}" )
     print( f"Compra    = {compra:.2f}" )
